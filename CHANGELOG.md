@@ -1,5 +1,15 @@
 # Changelog
 
+## 🤖 v1.1.2 - 18/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/costs.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/reference/slash-commands.md`
+
+
 ## 🤖 v1.1.1 - 15/08/2025
 
 File Changes:
