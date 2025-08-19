@@ -1,5 +1,15 @@
 # Changelog
 
+## 🤖 v1.1.3 - 19/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/build-with-claude-code/troubleshooting.md`
+- Modified: `docs/configuration/settings.md`
+
+
 ## 🤖 v1.1.2 - 18/08/2025
 
 File Changes:
