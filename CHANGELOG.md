@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.5 - 20/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/configuration/statusline.md`
+- Modified: `docs/deployment/google-vertex-ai.md`
+
+
 ## 🤖 v1.1.4 - 19/08/2025
 
 File Changes:
