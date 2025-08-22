@@ -1,5 +1,17 @@
 # Changelog
 
+## 🤖 v1.1.6 - 22/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/data-usage.md`
+- Modified: `docs/build-with-claude-code/hooks-guide.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/build-with-claude-code/troubleshooting.md`
+- Modified: `docs/reference/hooks.md`
+
+
 ## 🤖 v1.1.5 - 20/08/2025
 
 File Changes:
