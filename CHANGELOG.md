@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.7 - 23/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/troubleshooting.md`
+- Modified: `docs/configuration/ide-integrations.md`
+
+
 ## 🤖 v1.1.6 - 22/08/2025
 
 File Changes:
