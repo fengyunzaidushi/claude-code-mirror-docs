@@ -1,5 +1,22 @@
 # Changelog
 
+## 🤖 v1.1.9 - 26/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/costs.md`
+- Modified: `docs/administration/iam.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/build-with-claude-code/github-actions.md`
+- Modified: `docs/claude-code-sdk/sdk-python.md`
+- Modified: `docs/claude-code-sdk/sdk-typescript.md`
+- Modified: `docs/deployment/google-vertex-ai.md`
+- Modified: `docs/getting-started/common-workflows.md`
+- Modified: `docs/getting-started/quickstart.md`
+- Modified: `docs/reference/interactive-mode.md`
+
+
 ## 🤖 v1.1.8 - 26/08/2025
 
 File Changes:
