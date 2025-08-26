@@ -1,5 +1,20 @@
 # Changelog
 
+## 🤖 v1.1.8 - 26/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/data-usage.md`
+- Modified: `docs/build-with-claude-code/github-actions.md`
+- Deleted: `docs/build-with-claude-code/sdk.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/getting-started/overview.md`
+- Modified: `docs/getting-started/quickstart.md`
+- Modified: `docs/reference/cli-reference.md`
+- Added: `docs/claude-code-sdk/`
+
+
 ## 🤖 v1.1.7 - 23/08/2025
 
 File Changes:

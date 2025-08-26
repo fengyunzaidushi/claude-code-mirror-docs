@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Sat, 23 Aug 2025 21:18:29 GMT
+**Last updated:** Tue, 26 Aug 2025 15:23:20 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -25,13 +25,19 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 
 ## Build with Claude Code
 
-- [Claude Code SDK](./docs/build-with-claude-code/sdk.md)
 - [Subagents](./docs/build-with-claude-code/sub-agents.md)
 - [Output styles](./docs/build-with-claude-code/output-styles.md)
 - [Claude Code hooks](./docs/build-with-claude-code/hooks-guide.md)
 - [GitHub Actions](./docs/build-with-claude-code/github-actions.md)
 - [Model Context Protocol (MCP)](./docs/build-with-claude-code/mcp.md)
 - [Troubleshooting](./docs/build-with-claude-code/troubleshooting.md)
+
+## Claude Code SDK
+
+- [Overview](./docs/claude-code-sdk/sdk-overview.md)
+- [Headless mode](./docs/claude-code-sdk/sdk-headless.md)
+- [Python](./docs/claude-code-sdk/sdk-python.md)
+- [TypeScript](./docs/claude-code-sdk/sdk-typescript.md)
 
 ## Deployment
 
