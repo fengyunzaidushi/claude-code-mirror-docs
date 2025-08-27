@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.10 - 27/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/deployment/google-vertex-ai.md`
+
+
 ## 🤖 v1.1.9 - 26/08/2025
 
 File Changes:
