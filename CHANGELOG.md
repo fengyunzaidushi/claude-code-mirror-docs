@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.13 - 28/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/data-usage.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/build-with-claude-code/github-actions.md`
+- Modified: `docs/resources/legal-and-compliance.md`
+
+
 ## 🤖 v1.1.12 - 28/08/2025
 
 File Changes:
