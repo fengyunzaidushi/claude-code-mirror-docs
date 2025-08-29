@@ -1,5 +1,19 @@
 # Changelog
 
+## 🤖 v1.1.14 - 29/08/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/deployment/corporate-proxy.md`
+- Modified: `docs/reference/hooks.md`
+- Modified: `docs/reference/interactive-mode.md`
+- Added: `docs/configuration/model-config.md`
+
+
 ## 🤖 v1.1.13 - 28/08/2025
 
 File Changes:
