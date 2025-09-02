@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.15 - 02/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/iam.md`
+
+
 ## 🤖 v1.1.14 - 29/08/2025
 
 File Changes:
