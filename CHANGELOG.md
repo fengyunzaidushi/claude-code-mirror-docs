@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.16 - 04/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/data-usage.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/getting-started/quickstart.md`
+
+
 ## 🤖 v1.1.15 - 02/09/2025
 
 File Changes:
