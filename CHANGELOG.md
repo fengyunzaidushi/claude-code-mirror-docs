@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.17 - 05/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/claude-code-sdk/sdk-overview.md`
+- Modified: `docs/claude-code-sdk/sdk-typescript.md`
+- Modified: `docs/configuration/settings.md`
+
+
 ## 🤖 v1.1.16 - 04/09/2025
 
 File Changes:
