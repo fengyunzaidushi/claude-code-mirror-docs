@@ -1,5 +1,19 @@
 # Changelog
 
+## 🤖 v1.1.18 - 09/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/iam.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/claude-code-sdk/sdk-typescript.md`
+- Modified: `docs/configuration/ide-integrations.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/reference/cli-reference.md`
+- Added: `docs/others/`
+
+
 ## 🤖 v1.1.17 - 05/09/2025
 
 File Changes:

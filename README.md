@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Fri, 05 Sep 2025 21:18:49 GMT
+**Last updated:** Tue, 09 Sep 2025 18:28:04 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -77,4 +77,8 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 ## Resources
 
 - [Legal and compliance](./docs/resources/legal-and-compliance.md)
+
+## Others
+
+- [gitlab-ci-cd](./docs/others/gitlab-ci-cd.md)
 
