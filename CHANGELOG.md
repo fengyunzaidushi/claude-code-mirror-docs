@@ -1,5 +1,19 @@
 # Changelog
 
+## 🤖 v1.1.20 - 10/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/deployment/amazon-bedrock.md`
+- Deleted: `docs/deployment/corporate-proxy.md`
+- Modified: `docs/deployment/devcontainer.md`
+- Modified: `docs/deployment/llm-gateway.md`
+- Modified: `docs/deployment/third-party-integrations.md`
+- Added: `docs/deployment/network-config.md`
+
+
 ## 🤖 v1.1.19 - 10/09/2025
 
 File Changes:

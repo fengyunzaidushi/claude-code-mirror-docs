@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Wed, 10 Sep 2025 18:30:35 GMT
+**Last updated:** Wed, 10 Sep 2025 21:18:47 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -45,7 +45,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 - [Overview](./docs/deployment/third-party-integrations.md)
 - [Amazon Bedrock](./docs/deployment/amazon-bedrock.md)
 - [Google Vertex AI](./docs/deployment/google-vertex-ai.md)
-- [Corporate proxy](./docs/deployment/corporate-proxy.md)
+- [Network configuration](./docs/deployment/network-config.md)
 - [LLM gateway](./docs/deployment/llm-gateway.md)
 - [Development containers](./docs/deployment/devcontainer.md)
 
