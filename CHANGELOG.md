@@ -1,5 +1,15 @@
 # Changelog
 
+## 🤖 v1.1.19 - 10/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/claude-code-sdk/sdk-headless.md`
+- Deleted: `docs/others/gitlab-ci-cd.md`
+- Added: `docs/build-with-claude-code/gitlab-ci-cd.md`
+
+
 ## 🤖 v1.1.18 - 09/09/2025
 
 File Changes:

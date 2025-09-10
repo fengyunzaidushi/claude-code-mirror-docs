@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Tue, 09 Sep 2025 18:28:04 GMT
+**Last updated:** Wed, 10 Sep 2025 18:30:35 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -29,6 +29,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 - [Output styles](./docs/build-with-claude-code/output-styles.md)
 - [Hooks](./docs/build-with-claude-code/hooks-guide.md)
 - [GitHub Actions](./docs/build-with-claude-code/github-actions.md)
+- [GitLab CI/CD](./docs/build-with-claude-code/gitlab-ci-cd.md)
 - [Model Context Protocol (MCP)](./docs/build-with-claude-code/mcp.md)
 - [Troubleshooting](./docs/build-with-claude-code/troubleshooting.md)
 
@@ -77,8 +78,4 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 ## Resources
 
 - [Legal and compliance](./docs/resources/legal-and-compliance.md)
-
-## Others
-
-- [gitlab-ci-cd](./docs/others/gitlab-ci-cd.md)
 
