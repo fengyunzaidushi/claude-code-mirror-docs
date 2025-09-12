@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Fri, 12 Sep 2025 18:26:12 GMT
+**Last updated:** Fri, 12 Sep 2025 21:17:55 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -36,9 +36,9 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 ## Claude Code SDK
 
 - [Overview](./docs/claude-code-sdk/sdk-overview.md)
+- [TypeScript SDK reference](./docs/claude-code-sdk/sdk-typescript.md)
+- [Python SDK reference](./docs/claude-code-sdk/sdk-python.md)
 - [Headless mode](./docs/claude-code-sdk/sdk-headless.md)
-- [Python](./docs/claude-code-sdk/sdk-python.md)
-- [TypeScript](./docs/claude-code-sdk/sdk-typescript.md)
 
 ## Deployment
 

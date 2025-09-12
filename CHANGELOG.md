@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.22 - 12/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/others/custom-tools.md`
+
+
 ## 🤖 v1.1.21 - 12/09/2025
 
 File Changes:
