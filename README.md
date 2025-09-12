@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Wed, 10 Sep 2025 21:18:47 GMT
+**Last updated:** Fri, 12 Sep 2025 18:26:12 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -78,4 +78,17 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 ## Resources
 
 - [Legal and compliance](./docs/resources/legal-and-compliance.md)
+
+## Others
+
+- [custom-tools](./docs/others/custom-tools.md)
+- [modifying-system-prompts](./docs/others/modifying-system-prompts.md)
+- [sdk-cost-tracking](./docs/others/sdk-cost-tracking.md)
+- [sdk-mcp](./docs/others/sdk-mcp.md)
+- [sdk-permissions](./docs/others/sdk-permissions.md)
+- [sdk-sessions](./docs/others/sdk-sessions.md)
+- [sdk-slash-commands](./docs/others/sdk-slash-commands.md)
+- [streaming-vs-single-mode](./docs/others/streaming-vs-single-mode.md)
+- [subagents](./docs/others/subagents.md)
+- [todo-tracking](./docs/others/todo-tracking.md)
 

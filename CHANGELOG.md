@@ -1,5 +1,18 @@
 # Changelog
 
+## 🤖 v1.1.21 - 12/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/monitoring-usage.md`
+- Modified: `docs/claude-code-sdk/sdk-overview.md`
+- Modified: `docs/claude-code-sdk/sdk-python.md`
+- Modified: `docs/claude-code-sdk/sdk-typescript.md`
+- Modified: `docs/deployment/amazon-bedrock.md`
+- Added: `docs/others/`
+
+
 ## 🤖 v1.1.20 - 10/09/2025
 
 File Changes:
