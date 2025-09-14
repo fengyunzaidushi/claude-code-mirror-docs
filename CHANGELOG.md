@@ -1,5 +1,22 @@
 # Changelog
 
+## 🤖 v1.1.23 - 14/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/analytics.md`
+- Modified: `docs/claude-code-sdk/sdk-python.md`
+- Modified: `docs/others/custom-tools.md`
+- Modified: `docs/others/modifying-system-prompts.md`
+- Modified: `docs/others/sdk-cost-tracking.md`
+- Modified: `docs/others/sdk-mcp.md`
+- Modified: `docs/others/sdk-permissions.md`
+- Modified: `docs/others/sdk-slash-commands.md`
+- Modified: `docs/others/streaming-vs-single-mode.md`
+- Modified: `docs/others/todo-tracking.md`
+
+
 ## 🤖 v1.1.22 - 12/09/2025
 
 File Changes:
