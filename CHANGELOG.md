@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.24 - 15/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/sub-agents.md`
+- Modified: `docs/others/custom-tools.md`
+
+
 ## 🤖 v1.1.23 - 14/09/2025
 
 File Changes:
