@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Mon, 15 Sep 2025 21:18:37 GMT
+**Last updated:** Tue, 16 Sep 2025 15:23:08 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
