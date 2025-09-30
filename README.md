@@ -1,8 +1,8 @@
 # Claude Code Mirror Docs
 
-_This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._
+_This repository is a mirror of the official [Claude Code](https://docs.claude.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Tue, 16 Sep 2025 18:30:52 GMT
+**Last updated:** Tue, 30 Sep 2025 06:07:48 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -28,6 +28,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 - [Subagents](./docs/build-with-claude-code/sub-agents.md)
 - [Output styles](./docs/build-with-claude-code/output-styles.md)
 - [Hooks](./docs/build-with-claude-code/hooks-guide.md)
+- [Headless mode](./docs/build-with-claude-code/headless.md)
 - [GitHub Actions](./docs/build-with-claude-code/github-actions.md)
 - [GitLab CI/CD](./docs/build-with-claude-code/gitlab-ci-cd.md)
 - [Model Context Protocol (MCP)](./docs/build-with-claude-code/mcp.md)
@@ -35,10 +36,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 
 ## Claude Code SDK
 
-- [Overview](./docs/claude-code-sdk/sdk-overview.md)
-- [TypeScript SDK reference](./docs/claude-code-sdk/sdk-typescript.md)
-- [Python SDK reference](./docs/claude-code-sdk/sdk-python.md)
-- [Headless mode](./docs/claude-code-sdk/sdk-headless.md)
+- [Migrate to Claude Agent SDK](./docs/claude-code-sdk/migration-guide.md)
 
 ## Deployment
 
@@ -62,7 +60,8 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 ## Configuration
 
 - [Settings](./docs/configuration/settings.md)
-- [Add Claude Code to your IDE](./docs/configuration/ide-integrations.md)
+- [Visual Studio Code](./docs/configuration/vs-code.md)
+- [JetBrains IDEs](./docs/configuration/jetbrains.md)
 - [Terminal configuration](./docs/configuration/terminal-config.md)
 - [Model configuration](./docs/configuration/model-config.md)
 - [Memory management](./docs/configuration/memory.md)
@@ -73,6 +72,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.anthropi
 - [CLI reference](./docs/reference/cli-reference.md)
 - [Interactive mode](./docs/reference/interactive-mode.md)
 - [Slash commands](./docs/reference/slash-commands.md)
+- [Checkpointing](./docs/reference/checkpointing.md)
 - [Hooks reference](./docs/reference/hooks.md)
 
 ## Resources

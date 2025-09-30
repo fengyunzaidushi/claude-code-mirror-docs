@@ -1,59 +1,8 @@
 # Changelog
 
-## 🤖 v1.1.26 - 16/09/2025
+## 🧑‍💻 v1.1.26 - 30/09/2025
 
-File Changes:
-
-- Modified: `README.md`
-- Deleted: `docs/administration/analytics.md`
-- Deleted: `docs/administration/costs.md`
-- Deleted: `docs/administration/data-usage.md`
-- Deleted: `docs/administration/iam.md`
-- Deleted: `docs/administration/monitoring-usage.md`
-- Deleted: `docs/administration/security.md`
-- Deleted: `docs/administration/setup.md`
-- Deleted: `docs/build-with-claude-code/github-actions.md`
-- Deleted: `docs/build-with-claude-code/gitlab-ci-cd.md`
-- Deleted: `docs/build-with-claude-code/hooks-guide.md`
-- Deleted: `docs/build-with-claude-code/mcp.md`
-- Deleted: `docs/build-with-claude-code/output-styles.md`
-- Deleted: `docs/build-with-claude-code/sub-agents.md`
-- Deleted: `docs/build-with-claude-code/troubleshooting.md`
-- Deleted: `docs/claude-code-sdk/sdk-headless.md`
-- Deleted: `docs/claude-code-sdk/sdk-overview.md`
-- Deleted: `docs/claude-code-sdk/sdk-python.md`
-- Deleted: `docs/claude-code-sdk/sdk-typescript.md`
-- Deleted: `docs/configuration/ide-integrations.md`
-- Deleted: `docs/configuration/memory.md`
-- Deleted: `docs/configuration/model-config.md`
-- Deleted: `docs/configuration/settings.md`
-- Deleted: `docs/configuration/statusline.md`
-- Deleted: `docs/configuration/terminal-config.md`
-- Deleted: `docs/deployment/amazon-bedrock.md`
-- Deleted: `docs/deployment/devcontainer.md`
-- Deleted: `docs/deployment/google-vertex-ai.md`
-- Deleted: `docs/deployment/llm-gateway.md`
-- Deleted: `docs/deployment/network-config.md`
-- Deleted: `docs/deployment/third-party-integrations.md`
-- Deleted: `docs/getting-started/common-workflows.md`
-- Deleted: `docs/getting-started/overview.md`
-- Deleted: `docs/getting-started/quickstart.md`
-- Deleted: `docs/others/custom-tools.md`
-- Deleted: `docs/others/modifying-system-prompts.md`
-- Deleted: `docs/others/sdk-cost-tracking.md`
-- Deleted: `docs/others/sdk-mcp.md`
-- Deleted: `docs/others/sdk-permissions.md`
-- Deleted: `docs/others/sdk-sessions.md`
-- Deleted: `docs/others/sdk-slash-commands.md`
-- Deleted: `docs/others/streaming-vs-single-mode.md`
-- Deleted: `docs/others/subagents.md`
-- Deleted: `docs/others/todo-tracking.md`
-- Deleted: `docs/reference/cli-reference.md`
-- Deleted: `docs/reference/hooks.md`
-- Deleted: `docs/reference/interactive-mode.md`
-- Deleted: `docs/reference/slash-commands.md`
-- Deleted: `docs/resources/legal-and-compliance.md`
-
+- fix: docs update scripts with new URL
 
 ## 🤖 v1.1.25 - 16/09/2025
 

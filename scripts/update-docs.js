@@ -6,10 +6,10 @@ import fs from 'fs/promises';
 import path from 'path';
 
 // --- Configuration ---
-const SITEMAP_URL = 'https://docs.anthropic.com/sitemap.xml';
-const NAV_PAGE_URL = 'https://docs.anthropic.com/en/docs/claude-code/overview';
-const URL_PREFIX = 'https://docs.anthropic.com/en/docs/claude-code/';
-const BASE_URL = 'https://docs.anthropic.com';
+const SITEMAP_URL = 'https://docs.claude.com/sitemap.xml';
+const NAV_PAGE_URL = 'https://docs.claude.com/en/docs/claude-code/overview';
+const URL_PREFIX = 'https://docs.claude.com/en/docs/claude-code/';
+const BASE_URL = 'https://docs.claude.com';
 const DOCS_DIR = 'docs';
 const ROOT_README_PATH = 'README.md';
 const TELEGRAM_PUBLIC_CHANNEL_URL = 'https://t.me/+KFW99jUnwOA1ODA8';
@@ -43,7 +43,14 @@ async function fetchAllUrlsFromSitemap() {
   const result = await parser.parseStringPromise(response.data);
   const allUrls = result.urlset.url.map((url) => url.loc[0]);
   const claudeUrls = allUrls.filter((url) => url.startsWith(URL_PREFIX));
-  console.log(`   ${claudeUrls.length} Claude Code URLs found.`);
+  const logMessage = `${claudeUrls.length} Claude Code URLs found.`;
+  console.log(`   ${logMessage}`);
+
+  if (claudeUrls.length <= 0) {
+    console.log(`   ‼️ ${logMessage}`);
+    throw new Error(logMessage);
+  }
+
   return claudeUrls;
 }
 
@@ -159,7 +166,7 @@ async function downloadAndSaveDocs(allUrls, navStructure, slugToCategoryMap) {
 async function generateReadme(navStructure, otherFiles) {
   console.log('👓 5. Generating root README.md...');
   let readmeContent = '# Claude Code Mirror Docs\n\n';
-  readmeContent += '_This repository is a mirror of the official [Claude Code](https://docs.anthropic.com/en/docs/claude-code/) documentation. It is updated automatically._\n\n';
+  readmeContent += `_This repository is a mirror of the official [Claude Code](${URL_PREFIX}) documentation. It is updated automatically._\n\n`;
   readmeContent += `**Last updated:** ${new Date().toUTCString()}\n\n`;
   readmeContent += '<details>\n';
   readmeContent += '<summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>\n\n';
@@ -201,6 +208,7 @@ async function main() {
   const { otherFiles } = await downloadAndSaveDocs(allUrls, structure, slugToCategoryMap);
   await generateReadme(structure, otherFiles);
   console.log('\n✅ Update process completed successfully!');
+  process.exit(0);
 }
 
 main().catch((error) => {
