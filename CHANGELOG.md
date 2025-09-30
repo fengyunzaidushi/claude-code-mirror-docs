@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.27 - 30/09/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Deleted: `docs/administration/iam.md`
+- Modified: `docs/configuration/vs-code.md`
+
+
 ## 🧑‍💻 v1.1.26 - 30/09/2025
 
 - fix: docs update scripts with new URL
