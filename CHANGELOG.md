@@ -1,5 +1,18 @@
 # Changelog
 
+## 🤖 v1.1.29 - 01/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/sub-agents.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/configuration/terminal-config.md`
+- Modified: `docs/deployment/amazon-bedrock.md`
+- Modified: `docs/reference/cli-reference.md`
+- Modified: `docs/reference/slash-commands.md`
+
+
 ## 🤖 v1.1.28 - 30/09/2025
 
 File Changes:
