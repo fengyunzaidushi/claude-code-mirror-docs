@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.30 - 02/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/configuration/settings.md`
+
+
 ## 🤖 v1.1.29 - 01/10/2025
 
 File Changes:
