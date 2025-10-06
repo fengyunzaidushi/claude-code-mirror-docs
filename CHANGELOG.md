@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.31 - 06/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/configuration/jetbrains.md`
+
+
 ## 🤖 v1.1.30 - 02/10/2025
 
 File Changes:
