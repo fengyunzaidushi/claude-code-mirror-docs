@@ -1,5 +1,41 @@
 # Changelog
 
+## 🤖 v1.1.32 - 08/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/costs.md`
+- Modified: `docs/administration/monitoring-usage.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/build-with-claude-code/github-actions.md`
+- Modified: `docs/build-with-claude-code/gitlab-ci-cd.md`
+- Modified: `docs/build-with-claude-code/headless.md`
+- Modified: `docs/build-with-claude-code/hooks-guide.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/build-with-claude-code/output-styles.md`
+- Modified: `docs/build-with-claude-code/sub-agents.md`
+- Modified: `docs/build-with-claude-code/troubleshooting.md`
+- Modified: `docs/claude-code-sdk/migration-guide.md`
+- Modified: `docs/configuration/jetbrains.md`
+- Modified: `docs/configuration/model-config.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/configuration/statusline.md`
+- Modified: `docs/deployment/amazon-bedrock.md`
+- Modified: `docs/deployment/google-vertex-ai.md`
+- Modified: `docs/deployment/llm-gateway.md`
+- Modified: `docs/deployment/network-config.md`
+- Modified: `docs/deployment/third-party-integrations.md`
+- Modified: `docs/getting-started/common-workflows.md`
+- Modified: `docs/getting-started/overview.md`
+- Modified: `docs/getting-started/quickstart.md`
+- Modified: `docs/reference/checkpointing.md`
+- Modified: `docs/reference/cli-reference.md`
+- Modified: `docs/reference/hooks.md`
+- Modified: `docs/reference/interactive-mode.md`
+- Modified: `docs/reference/slash-commands.md`
+
+
 ## 🤖 v1.1.31 - 06/10/2025
 
 File Changes:
