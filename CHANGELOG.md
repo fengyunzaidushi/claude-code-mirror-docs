@@ -1,5 +1,21 @@
 # Changelog
 
+## 🤖 v1.1.33 - 09/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/github-actions.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/build-with-claude-code/sub-agents.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/reference/hooks.md`
+- Modified: `docs/reference/slash-commands.md`
+- Added: `docs/administration/plugin-marketplaces.md`
+- Added: `docs/build-with-claude-code/plugins.md`
+- Added: `docs/reference/plugins-reference.md`
+
+
 ## 🤖 v1.1.32 - 08/10/2025
 
 File Changes:

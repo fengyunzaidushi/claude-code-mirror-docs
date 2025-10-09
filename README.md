@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.claude.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Wed, 08 Oct 2025 01:40:22 GMT
+**Last updated:** Thu, 09 Oct 2025 18:31:02 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -26,6 +26,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 ## Build with Claude Code
 
 - [Subagents](./docs/build-with-claude-code/sub-agents.md)
+- [Plugins](./docs/build-with-claude-code/plugins.md)
 - [Output styles](./docs/build-with-claude-code/output-styles.md)
 - [Hooks](./docs/build-with-claude-code/hooks-guide.md)
 - [Headless mode](./docs/build-with-claude-code/headless.md)
@@ -56,6 +57,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 - [Monitoring](./docs/administration/monitoring-usage.md)
 - [Costs](./docs/administration/costs.md)
 - [Analytics](./docs/administration/analytics.md)
+- [Plugin marketplaces](./docs/administration/plugin-marketplaces.md)
 
 ## Configuration
 
@@ -74,6 +76,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 - [Slash commands](./docs/reference/slash-commands.md)
 - [Checkpointing](./docs/reference/checkpointing.md)
 - [Hooks reference](./docs/reference/hooks.md)
+- [Plugins reference](./docs/reference/plugins-reference.md)
 
 ## Resources
 
