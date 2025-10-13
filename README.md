@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.claude.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Thu, 09 Oct 2025 18:31:02 GMT
+**Last updated:** Mon, 13 Oct 2025 21:18:57 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>

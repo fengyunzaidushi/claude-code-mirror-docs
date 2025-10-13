@@ -1,5 +1,22 @@
 # Changelog
 
+## 🤖 v1.1.34 - 13/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/analytics.md`
+- Modified: `docs/administration/monitoring-usage.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/build-with-claude-code/hooks-guide.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/configuration/model-config.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/getting-started/quickstart.md`
+- Modified: `docs/reference/hooks.md`
+- Modified: `docs/reference/interactive-mode.md`
+
+
 ## 🤖 v1.1.33 - 09/10/2025
 
 File Changes:
