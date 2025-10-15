@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.35 - 15/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/deployment/amazon-bedrock.md`
+- Modified: `docs/deployment/google-vertex-ai.md`
+
+
 ## 🤖 v1.1.34 - 13/10/2025
 
 File Changes:
