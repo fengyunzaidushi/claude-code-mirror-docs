@@ -1,0 +1,17 @@
+{
+  "layer": 1,
+  "batch_id": 1,
+  "source_files": [
+    "第0001章 火之意志忽悠意志.txt",
+    "第0002章 论孤儿开局的优势.txt",
+    "第0003章 沐月老师是好人.txt",
+    "第0004章 迈特凯与带土的潜力.txt",
+    "第0005章 考试秘诀.txt",
+    "第0006章 病态的团藏.txt"
+  ],
+  "source_dir": "D:/github/2015/10/claude-code-mirror-docs/chapters/",
+  "output_file": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary01/summary_01.txt",
+  "batch_range": "1-6",
+  "batch_size": 6,
+  "actual_count": 6
+}
