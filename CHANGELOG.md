@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.39 - 16/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/plugins.md`
+- Modified: `docs/reference/plugins-reference.md`
+- Modified: `docs/reference/slash-commands.md`
+- Added: `docs/build-with-claude-code/skills.md`
+
+
 ## 🤖 v1.1.38 - 16/10/2025
 
 File Changes:

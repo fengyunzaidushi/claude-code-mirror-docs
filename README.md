@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.claude.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Thu, 16 Oct 2025 06:32:50 GMT
+**Last updated:** Thu, 16 Oct 2025 18:31:56 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -27,6 +27,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 
 - [Subagents](./docs/build-with-claude-code/sub-agents.md)
 - [Plugins](./docs/build-with-claude-code/plugins.md)
+- [Agent Skills](./docs/build-with-claude-code/skills.md)
 - [Output styles](./docs/build-with-claude-code/output-styles.md)
 - [Hooks](./docs/build-with-claude-code/hooks-guide.md)
 - [Headless mode](./docs/build-with-claude-code/headless.md)
