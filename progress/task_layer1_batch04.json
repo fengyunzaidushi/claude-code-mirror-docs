@@ -1,0 +1,17 @@
+{
+  "layer": 1,
+  "batch_id": 4,
+  "source_files": [
+    "第0019章 提前毕业.txt",
+    "第0020章 笑容不会消失只会转移.txt",
+    "第0021章 三代火影.txt",
+    "第0022章 巅峰三代的实力.txt",
+    "第0023章 小太阳和红辣椒.txt",
+    "第0024章 新训练开始.txt"
+  ],
+  "source_dir": "D:/github/2015/10/claude-code-mirror-docs/chapters/",
+  "output_file": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary01/summary_04.txt",
+  "batch_range": "19-24",
+  "batch_size": 6,
+  "actual_count": 6
+}
