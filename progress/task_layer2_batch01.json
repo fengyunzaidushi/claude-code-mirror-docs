@@ -2,15 +2,14 @@
   "layer": 2,
   "batch_id": 1,
   "source_files": [
-    "summary_01.txt",
-    "summary_02.txt",
-    "summary_03.txt",
-    "summary_04.txt",
-    "summary_05.txt"
+    "batch_01.txt",
+    "batch_02.txt"
   ],
-  "source_dir": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary01/",
+  "source_dir": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary02/",
   "output_file": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary02/final_outline.txt",
-  "batch_range": "summaries 1-5",
+  "batch_range": "summaries 1-2",
   "batch_size": 5,
-  "actual_count": 5
+  "actual_count": 2,
+  "status": "completed",
+  "completed_at": "2025-10-17"
 }
