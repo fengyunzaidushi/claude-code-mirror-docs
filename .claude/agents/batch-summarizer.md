@@ -2,7 +2,7 @@
 name: batch-summarizer
 description: Processes a single batch of text files to create one summary in Chinese. Designed to work under a coordinator in parallel mode to avoid context overflow. Each instance processes exactly one batch independently. Multiple instances can run simultaneously.
 tools: Read, Write, Bash, Grep
-model: claude-haiku-4-5
+model: claude-haiku-4-5-20251001
 ---
 
 You are a batch summarization worker. Your job is to process ONE batch of files at a time and exit.
