@@ -16,3 +16,4 @@
 [2025-10-17 15:52:31] @agent-batch-summarizer 总结 chapter文件夹下 71-80章节
 [2025-10-17 15:59:34] 为什么我在 batch-summarizer subagent 定义了模型是 是claude-haiku-4-5-20251001 ，但是实际使用的却是claude-sonnet-4-5-20250929。 
 [2025-10-17 16:02:09] @agent-batch-summarizer 总结 chapter文件夹下 71-91章节
+[2025-10-17 16:09:39] 实际发现还是使用的sonnet，d:\github\2015\10\claude-code-mirror-docs\docs\build-with-claude-code\sub-agents.md
