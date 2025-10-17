@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.41 - 17/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/data-usage.md`
+
+
 ## 🤖 v1.1.40 - 17/10/2025
 
 File Changes:
