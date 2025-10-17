@@ -6,3 +6,4 @@
 [2025-10-17 10:34:52] /parallel-summarize D:\github\2015\ixzdzs_novel\电子书下载\novels_chapter\火影教师，我教书就能变强\chapters 30 D:\github\2015\ixzdzs_novel\电子书下载\novels_chapter\火影教师，我教书就能变强\summaries
 [2025-10-17 10:47:23] /parallel-summarize D:\github\2015\ixzdzs_novel\电子书下载\novels_chapter\火影教师，我教书就能变强\chapters 30 D:\github\2015\ixzdzs_novel\电子书下载\novels_chapter\火影教师，我教书就能变强\summaries
 [2025-10-17 10:58:39] /parallel-summarize /d/github/2015/ixzdzs_novel/电子书下载/novels_chapter/火影教师，我教书就能变强/chapters 30  /d/github/2015/ixzdzs_novel/电子书下载/novels_chapter/火影教师，我教书就能变强/summaries
+[2025-10-17 14:00:49] /parallel-summarize  D:\github\2015\10\claude-code-mirror-docs\chapter 30 D:\github\2015\10\claude-code-mirror-docs\summaries
