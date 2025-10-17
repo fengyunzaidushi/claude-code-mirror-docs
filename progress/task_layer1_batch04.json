@@ -10,8 +10,10 @@
     "第0024章 新训练开始.txt"
   ],
   "source_dir": "D:/github/2015/10/claude-code-mirror-docs/chapters/",
-  "output_file": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary01/summary_04.txt",
+  "output_file": "D:/github/2015/10/claude-code-mirror-docs/summaries/section_summary02/batch_04.txt",
   "batch_range": "19-24",
   "batch_size": 6,
-  "actual_count": 6
+  "actual_count": 6,
+  "status": "completed",
+  "processed_at": "2025-10-17"
 }
