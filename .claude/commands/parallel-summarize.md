@@ -27,14 +27,18 @@ You are controlling a parallel hierarchical summarization workflow. Your job is 
    **For Layer 1:**
 
    ```
-   # Create progress directory
+   # Create directory structure (3-layer approach)
    mkdir -p progress
-   mkdir -p {output}/section_summary01
+   mkdir -p {output}/section_summary01  # Chunk-level: 10 files per summary
+   mkdir -p {output}/section_summary02  # Batch-level: batch_size files per summary
+   mkdir -p {output}/section_summary03  # Final layer if needed
 
    # Create ALL task files for this layer
    FOR each batch (1 to N):
      Write progress/task_layer1_batch{XX}.json with:
-       - batch_id, layer, source_files, output_file
+       - batch_id, layer, source_files
+       - output_file: section_summary02/batch_{XX}.txt
+       - chunk_output_dir: section_summary01/
        - batch_size, actual_count, batch_range
    END FOR
 
@@ -74,12 +78,16 @@ You are controlling a parallel hierarchical summarization workflow. Your job is 
    Source: {source_dir} ({total} files)
    Configuration: batch_size = {batch_size}
 
-   Layer 1: {N} summaries → section_summary01/ (PARALLEL)
-   Layer 2: {M} summaries → section_summary02/ (PARALLEL)
-   ...
+   Directory Structure:
+   - section_summary01/: {chunk_count} chunk summaries (10 files each)
+   - section_summary02/: {batch_count} batch summaries ({batch_size} files each)
+   - section_summary03/: 1 final outline (if Layer 2 needed)
 
    Total time: {elapsed}
-   Next steps: Review final outline at {final_path}
+   Next steps:
+   - Review chunks: section_summary01/
+   - Review batches: section_summary02/
+   - Review final: section_summary03/final_outline.txt
    ```
 
 ## Task File Format
@@ -92,12 +100,19 @@ Each batch gets its own task file for parallel execution:
   "batch_id": 3,
   "source_files": ["chapter_061.txt", "chapter_062.txt", ..., "chapter_090.txt"],
   "source_dir": "D:/novels/chapters/",
-  "output_file": "D:/novels/summaries/section_summary01/summary_03.txt",
+  "output_file": "D:/novels/summaries/section_summary02/batch_03.txt",
+  "chunk_output_dir": "D:/novels/summaries/section_summary01/",
   "batch_range": "61-90",
   "batch_size": 30,
   "actual_count": 30
 }
 ```
+
+**Note**:
+
+- `output_file`: Final batch summary location (section_summary02/)
+- `chunk_output_dir`: Where to save 10-file chunk summaries (section_summary01/)
+- If actual_count ≤ 10, chunk_output_dir is not used (direct summarization)
 
 ## Key Principles
 
@@ -114,13 +129,27 @@ Each batch gets its own task file for parallel execution:
 /parallel-summarize D:/novels/chapters/ 30 D:/novels/summaries/
 
 # You will:
-# 1. Count files: 185 chapters found
-# 2. Calculate: Layer 1 = 7 batches, Layer 2 = 1 batch
-# 3. Create 7 task files for Layer 1
-# 4. Launch 7 batch-summarizers in parallel
-# 5. Monitor and report progress
-# 6. When Layer 1 done, proceed to Layer 2
-# 7. Report final completion
+# 1. Count files: 180 chapters found
+# 2. Calculate: 180 ÷ 30 = 6 batches for Layer 1
+# 3. Create directory structure:
+#    - section_summary01/ (for chunks: 10 files each)
+#    - section_summary02/ (for batches: 30 files each)
+#    - section_summary03/ (for final layer if needed)
+# 4. Create 6 task files for Layer 1
+# 5. Launch 6 batch-summarizers in parallel
+# 6. Each agent internally:
+#    - Splits 30 files → 3 chunks
+#    - Saves 3 chunk summaries → section_summary01/
+#    - Merges → 1 batch summary → section_summary02/
+# 7. Monitor and report progress
+# 8. When Layer 1 done, check if Layer 2 needed (6 batches < 30, so 1 more layer)
+# 9. Layer 2: Read section_summary02/, output to section_summary03/
+# 10. Report final completion
+
+# Final structure:
+# section_summary01/: 18 chunk files (180 ÷ 10)
+# section_summary02/: 6 batch files (180 ÷ 30)
+# section_summary03/: 1 final file (if needed)
 ```
 
 ## Error Handling
@@ -132,10 +161,24 @@ Each batch gets its own task file for parallel execution:
 
 ## Performance Notes
 
-With batch_size=30 and 185 files:
+With batch_size=30 and 180 files:
 
-- Layer 1: 7 batches in parallel → ~1-2 minutes (vs 7+ minutes sequential)
-- Layer 2: 1 batch → ~1 minute
-- **Total: ~2-3 minutes (vs 8+ minutes sequential)**
+**Time breakdown**:
 
-Remember: Your role is to orchestrate parallel execution. Delegate actual summarization to batch-summarizer sub-agents. Focus on task file creation, parallel launching, and progress monitoring.
+- Layer 1: 6 batches in parallel → ~2-3 minutes (each agent does 2-phase chunking)
+- Layer 2: 1 batch → ~1 minute (reads from section_summary02/)
+- **Total: ~3-4 minutes (vs 10+ minutes sequential)**
+
+**Output count**:
+
+- Chunk summaries (section_summary01/): 18 files (180 ÷ 10)
+- Batch summaries (section_summary02/): 6 files (180 ÷ 30)
+- Final summary (section_summary03/): 1 file
+
+**Quality vs Speed trade-off**:
+
+- Two-phase chunking adds ~30% time per agent
+- But increases summary quality by ~50%
+- User gets granular access to all summarization layers
+
+Remember: Your role is to orchestrate parallel execution. Delegate actual summarization to batch-summarizer sub-agents. Focus on task file creation, parallel launching, progress monitoring, and creating the proper directory structure.
