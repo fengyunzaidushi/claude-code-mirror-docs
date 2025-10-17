@@ -99,7 +99,7 @@ section_summary03/  (1 final file, if Layer 2 needed)
    **If batch_size ≤ 10**: Direct summarization
 
    - Read all files
-   - Generate one comprehensive summary
+   - Generate one comprehensive summary in Chinese
    - Write to output_file
 
    **If batch_size > 10**: Two-phase chunked summarization with layered output
@@ -109,14 +109,14 @@ section_summary03/  (1 final file, if Layer 2 needed)
      - Split files into chunks of 10 (e.g., 30 files → 3 chunks)
      - For each chunk of ≤10 files:
        - Read the chunk files
-       - Generate intermediate summary (~300-400 words)
+       - Generate intermediate summary (~300-400 words) in Chinese
        - **Write to section_summary01/** as chunk_XXX_YYY.txt
        - Store in memory for Phase 2
      - Result: N chunk files in section_summary01/
 
    - **Phase 2 - Batch summary** (save to section_summary02+):
      - Read all chunk summaries from Phase 1
-     - Synthesize them into one final comprehensive batch summary
+     - Synthesize them into one final comprehensive batch summary in Chinese
      - Write to the specified output_file (section_summary02/ or higher)
 
    **Why chunk internally?**
