@@ -30,3 +30,4 @@ progress/
 summaries/
 local_data/
 *.rar
+.specstory/
