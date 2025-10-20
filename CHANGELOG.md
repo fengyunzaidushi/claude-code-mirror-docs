@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.45 - 20/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/getting-started/claude-code-on-the-web.md`
+- Modified: `docs/reference/hooks.md`
+
+
 ## 🤖 v1.1.44 - 20/10/2025
 
 File Changes:
