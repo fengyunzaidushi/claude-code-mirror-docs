@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.43 - 20/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Deleted: `docs/claude-code-sdk/migration-guide.md`
+- Modified: `docs/configuration/settings.md`
+- Added: `docs/claude-agent-sdk/`
+
+
 ## 🤖 v1.1.42 - 20/10/2025
 
 File Changes:

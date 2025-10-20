@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.claude.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Mon, 20 Oct 2025 01:50:58 GMT
+**Last updated:** Mon, 20 Oct 2025 15:23:16 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -36,9 +36,9 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 - [Model Context Protocol (MCP)](./docs/build-with-claude-code/mcp.md)
 - [Troubleshooting](./docs/build-with-claude-code/troubleshooting.md)
 
-## Claude Code SDK
+## Claude Agent SDK
 
-- [Migrate to Claude Agent SDK](./docs/claude-code-sdk/migration-guide.md)
+- [Migrate to Claude Agent SDK](./docs/claude-agent-sdk/migration-guide.md)
 
 ## Deployment
 
