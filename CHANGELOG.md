@@ -1,5 +1,19 @@
 # Changelog
 
+## 🤖 v1.1.44 - 20/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/data-usage.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/getting-started/quickstart.md`
+- Modified: `docs/reference/slash-commands.md`
+- Added: `docs/deployment/sandboxing.md`
+- Added: `docs/getting-started/claude-code-on-the-web.md`
+
+
 ## 🤖 v1.1.43 - 20/10/2025
 
 File Changes:

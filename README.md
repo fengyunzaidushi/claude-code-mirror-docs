@@ -2,7 +2,7 @@
 
 _This repository is a mirror of the official [Claude Code](https://docs.claude.com/en/docs/claude-code/) documentation. It is updated automatically._
 
-**Last updated:** Mon, 20 Oct 2025 15:23:16 GMT
+**Last updated:** Mon, 20 Oct 2025 18:33:44 GMT
 
 <details>
 <summary><strong>🔔 Stay Updated (Get Notified of Changes)</strong></summary>
@@ -22,6 +22,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 - [Overview](./docs/getting-started/overview.md)
 - [Quickstart](./docs/getting-started/quickstart.md)
 - [Common workflows](./docs/getting-started/common-workflows.md)
+- [Claude Code on the web](./docs/getting-started/claude-code-on-the-web.md)
 
 ## Build with Claude Code
 
@@ -48,6 +49,7 @@ _This repository is a mirror of the official [Claude Code](https://docs.claude.c
 - [Network configuration](./docs/deployment/network-config.md)
 - [LLM gateway](./docs/deployment/llm-gateway.md)
 - [Development containers](./docs/deployment/devcontainer.md)
+- [Sandboxing](./docs/deployment/sandboxing.md)
 
 ## Administration
 
