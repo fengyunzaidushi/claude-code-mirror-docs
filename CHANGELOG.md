@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.42 - 20/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/configuration/vs-code.md`
+
+
 ## 🤖 v1.1.41 - 17/10/2025
 
 File Changes:
