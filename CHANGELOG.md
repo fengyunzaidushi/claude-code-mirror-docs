@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.49 - 23/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/skills.md`
+
+
 ## 🤖 v1.1.48 - 23/10/2025
 
 File Changes:
