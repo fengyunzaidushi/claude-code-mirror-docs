@@ -1,12 +1,12 @@
 # Plugins
 
-> Extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.
+> Extend Claude Code with custom commands, agents, hooks, Skills, and MCP servers through the plugin system.
 
 <Tip>
   For complete technical specifications and schemas, see [Plugins reference](../reference/plugins-reference.md). For marketplace management, see [Plugin marketplaces](../administration/plugin-marketplaces.md).
 </Tip>
 
-Plugins let you extend Claude Code with custom functionality that can be shared across projects and teams. Install plugins from [marketplaces](../administration/plugin-marketplaces.md) to add pre-built commands, agents, hooks, and MCP servers, or create your own to automate your workflows.
+Plugins let you extend Claude Code with custom functionality that can be shared across projects and teams. Install plugins from [marketplaces](../administration/plugin-marketplaces.md) to add pre-built commands, agents, hooks, Skills, and MCP servers, or create your own to automate your workflows.
 
 ## Quickstart
 

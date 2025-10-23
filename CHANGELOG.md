@@ -1,5 +1,17 @@
 # Changelog
 
+## 🤖 v1.1.46 - 23/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/build-with-claude-code/plugins.md`
+- Modified: `docs/configuration/vs-code.md`
+- Modified: `docs/deployment/sandboxing.md`
+- Modified: `docs/getting-started/claude-code-on-the-web.md`
+
+
 ## 🤖 v1.1.45 - 20/10/2025
 
 File Changes:
