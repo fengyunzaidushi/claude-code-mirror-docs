@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.53 - 25/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/reference/hooks.md`
+
+
 ## 🤖 v1.1.52 - 24/10/2025
 
 File Changes:
