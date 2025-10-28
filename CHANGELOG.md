@@ -1,5 +1,19 @@
 # Changelog
 
+## 🤖 v1.1.55 - 28/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/monitoring-usage.md`
+- Modified: `docs/build-with-claude-code/github-actions.md`
+- Modified: `docs/build-with-claude-code/gitlab-ci-cd.md`
+- Modified: `docs/build-with-claude-code/mcp.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/configuration/vs-code.md`
+- Modified: `docs/reference/hooks.md`
+
+
 ## 🤖 v1.1.54 - 27/10/2025
 
 File Changes:
