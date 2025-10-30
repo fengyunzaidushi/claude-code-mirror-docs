@@ -6,24 +6,50 @@
 
 Prerequisites:
 
-* [Node.js 18 or newer](https://nodejs.org/en/download/)
 * A [Claude.ai](https://claude.ai) (recommended) or [Claude Console](https://console.anthropic.com/) account
 
+**Install Claude Code:**
+
+<Tabs>
+  <Tab title="macOS/Linux">
+    ```bash  theme={null}
+    curl -fsSL https://claude.ai/install.sh | bash
+    ```
+  </Tab>
+
+  <Tab title="Homebrew">
+    ```bash  theme={null}
+    brew install --cask claude-code
+    ```
+  </Tab>
+
+  <Tab title="Windows">
+    ```powershell  theme={null}
+    irm https://claude.ai/install.ps1 | iex
+    ```
+  </Tab>
+
+  <Tab title="NPM">
+    ```bash  theme={null}
+    npm install -g @anthropic-ai/claude-code
+    ```
+
+    Requires [Node.js 18+](https://nodejs.org/en/download/)
+  </Tab>
+</Tabs>
+
+**Start using Claude Code:**
+
 ```bash  theme={null}
-# Install Claude Code
-npm install -g @anthropic-ai/claude-code
-
-# Navigate to your project
-cd your-awesome-project
-
-# Start coding with Claude
+cd your-project
 claude
-# You'll be prompted to log in on first use
 ```
 
-That's it! You're ready to start coding with Claude. [Continue with Quickstart (5 mins) →](quickstart.md)
+You'll be prompted to log in on first use. That's it! [Continue with Quickstart (5 mins) →](quickstart.md)
 
-(Got specific setup needs or hit issues? See [advanced setup](../administration/setup.md) or [troubleshooting](../build-with-claude-code/troubleshooting.md).)
+<Tip>
+  See [advanced setup](../administration/setup.md) for installation options or [troubleshooting](../build-with-claude-code/troubleshooting.md) if you hit issues.
+</Tip>
 
 <Note>
   **New VS Code Extension (Beta)**: Prefer a graphical interface? Our new [VS Code extension](../configuration/vs-code.md) provides an easy-to-use native IDE experience without requiring terminal familiarity. Simply install from the marketplace and start coding with Claude directly in your sidebar.

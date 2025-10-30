@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.57 - 30/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/setup.md`
+- Modified: `docs/deployment/amazon-bedrock.md`
+- Modified: `docs/getting-started/overview.md`
+- Modified: `docs/getting-started/quickstart.md`
+
+
 ## 🤖 v1.1.56 - 29/10/2025
 
 File Changes:
