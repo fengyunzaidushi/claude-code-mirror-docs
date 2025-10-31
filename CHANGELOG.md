@@ -1,5 +1,15 @@
 # Changelog
 
+## 🤖 v1.1.58 - 31/10/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/administration/security.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/deployment/sandboxing.md`
+
+
 ## 🤖 v1.1.57 - 30/10/2025
 
 File Changes:
