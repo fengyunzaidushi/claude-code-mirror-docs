@@ -1,5 +1,16 @@
 # Changelog
 
+## 🤖 v1.1.59 - 01/11/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/output-styles.md`
+- Modified: `docs/build-with-claude-code/sub-agents.md`
+- Modified: `docs/reference/cli-reference.md`
+- Modified: `docs/reference/hooks.md`
+
+
 ## 🤖 v1.1.58 - 31/10/2025
 
 File Changes:
