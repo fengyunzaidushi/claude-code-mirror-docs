@@ -1,5 +1,13 @@
 # Changelog
 
+## 🤖 v1.1.70 - 03/11/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/reference/cli-reference.md`
+
+
 ## 🤖 v1.1.69 - 03/11/2025
 
 File Changes:
