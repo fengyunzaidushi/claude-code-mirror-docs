@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.73 - 04/11/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/build-with-claude-code/output-styles.md`
+- Modified: `docs/getting-started/overview.md`
+
+
 ## 🤖 v1.1.72 - 04/11/2025
 
 File Changes:
