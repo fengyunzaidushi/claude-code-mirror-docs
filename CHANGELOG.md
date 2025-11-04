@@ -1,5 +1,14 @@
 # Changelog
 
+## 🤖 v1.1.72 - 04/11/2025
+
+File Changes:
+
+- Modified: `README.md`
+- Modified: `docs/configuration/settings.md`
+- Modified: `docs/reference/hooks.md`
+
+
 ## 🤖 v1.1.71 - 03/11/2025
 
 File Changes:
